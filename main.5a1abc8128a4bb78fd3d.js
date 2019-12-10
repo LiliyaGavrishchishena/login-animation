@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{L1EO:function(n,e,o){},QfWi:function(n,e,o){"use strict";o.r(e);o("L1EO");var s=["flowers.jpg","flowers.jpg"],t=1;setInterval((function(){var n="url('./images/"+s[t-1]+"')";t<s.length?t+=1:t=1,document.body.style.backgroundImage=n}),5e3)}},[["QfWi",1]]]);
+//# sourceMappingURL=main.5a1abc8128a4bb78fd3d.js.map
