@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>login-animation</title>
+  </head>
+
+  <body id="body">
+    <div class="container">
+      <form class="form" autocomplete="off">
+        <div class="logo">
+          <div class="logo__item orange"></div>
+          <div class="logo__item purple"></div>
+          <div class="logo__item blue"></div>
+          <div class="logo__item green"></div>
+        </div>
+        <h2 class="form__title">
+          QCRM<br /><span class="form__title--text">by SupportYourApp</span>
+        </h2>
+        <div class="login">
+          <label for="login" class="form__label"></label>
+          <input
+            class="form__input"
+            type="text"
+            name="login"
+            id="login"
+            placeholder="Login"
+            autofocus
+            required
+          />
+        </div>
+        <div class="password">
+          <label for="password" class="form__label"></label>
+          <input
+            class="form__input"
+            type="text"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="checkbox__form">
+          <label class="checkbox__container" for="checkbox"
+            >Remember me on this computer
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              checked
+            />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="form__field">
+          <input type="submit" class="button" value="Sign In to QCRM" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
